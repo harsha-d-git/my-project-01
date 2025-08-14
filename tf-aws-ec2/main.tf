@@ -15,7 +15,7 @@ resource "aws_instance" "namemy-ec2" {
     
   
     tags = {
-      Name = "var.Tag_Name"
+      Name = var.Tag_Name
     }
   
 }

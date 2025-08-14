@@ -15,4 +15,5 @@ variable "instance_type" {
 
 variable "Tag_Name" {
   type = string
+  default = "ci-cd-demo-01"
   }
